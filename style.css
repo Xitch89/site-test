@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:	center;
+    align-items:	center;
+    align-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:	space-between;
+    align-items:	center;
+    align-content: center;
+    height: 10%;
+    width: 100%;
+}
+.title{
+    height: 15%;
+    width: 100%;
+}
+img{
+    width: 800px;
+    height: 530px;
+    margin-right: 50px;
+}
+.tree-clipart-transparent{
+    width: 280px;
+    height: 250px;
+    margin-left: 200px;
+    margin-bottom: 310px;
+}
+.centr-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:	space-around;
+    align-items:	center;
+    align-content: center;
+    margin-left: 50px;
+}
+.sign{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:	center;
+    align-items:	center;
+    align-content: center;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:	space-between;
+    align-items:	center;
+    align-content: center;
+    height: 60%;
+    width: 100%;
+}
+ul{
+    list-style-type:  none;
+    margin-left: 165px;
+}
+li{
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+li:hover{
+    background-color: rgb(87, 194, 171);
+}
+.buttons{
+    margin-left: 205px;
+    margin-top: 18px;
+    color: black;
+    font-size: 0.6cm;
+    font-weight: bold;
+}
+.buttons2{
+    margin-top: 25px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.sigin-in{
+    margin-top: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sigin-up{
+    margin-top: 25px;
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.big-title{
+    font-size: 2cm;
+    margin-left: 160px;
+    margin-bottom: 3px;
+}
+.slogan{
+    margin-left: 165px;
+    color: rgb(79, 139, 121);
+}
