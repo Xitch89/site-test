@@ -63,13 +63,15 @@ ul{
     margin-left: 165px;
 }
 li{
-    border: 1px solid black;
+    border: 2px solid white;
+    width:250px;
     margin-bottom: 50px;
+    padding:5px 5px;
     margin-left: 30px;
     font-size: 25px;
 }
 li:hover{
-    background-color: rgb(87, 194, 171);
+    border: 2px solid black;
 }
 .buttons{
     margin-left: 205px;
@@ -83,13 +85,15 @@ li:hover{
     padding-right: 20px;
     font-size: 20px;
 }
-.sigin-in{
+.sign-in{
     margin-top: 25px;
-    padding-right: 25px;
+    padding-right: 15px;
     font-weight: bold;
     font-size: 20px;
 }
-.sigin-up{
+.sign-up{
+    padding:10px 10px;
+    border: 2px solid black;
     margin-top: 25px;
     margin-right: 200px;
     font-weight: bold;
